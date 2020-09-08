@@ -1,12 +1,23 @@
-#foto-file {
-    display: none;
+* {
+    box-sizing: border-box;
 }
 
 body {
-    display: grid;
-    place-content: center;
+    display: flex;
+    place-items: center;
+    flex-direction: column;
 }
 
 header {
     place-self: center;
+}
+
+#foto-file {
+    display: none;
+}
+
+#selection-tool {
+    position: fixed;
+    display: none;
+    border: 2px dashed green;
 }
