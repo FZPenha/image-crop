@@ -1,0 +1,12 @@
+#foto-file {
+    display: none;
+}
+
+body {
+    display: grid;
+    place-content: center;
+}
+
+header {
+    place-self: center;
+}
